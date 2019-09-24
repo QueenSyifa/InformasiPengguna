@@ -22,13 +22,13 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m----------------------------------------\n  Coded  : Queen                        \n  Github : https://github.com/QueenSyifa\n----------------------------------------'
+logo = '\x1b[1;92m----------------------------------------\n  Coded  : Queen Syifa                  \n  Github : https://github.com/QueenSyifa\n----------------------------------------'
 
 def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk COK \x1b[1;97m' + o,
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -204,4 +204,3 @@ def menu():
 
 if __name__ == '__main__':
     login()
-# okay decompiling 3.pyc
