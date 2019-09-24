@@ -21,9 +21,6 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-
-logo = 'Queen'
-
 def tik():
     titik = [
      '.   ', '..  ', '... ']
@@ -205,5 +202,12 @@ def menu():
         menu()
 
 if __name__ == '__main__':
+    os.system("clear")
+    print """%s
+%s---------------------------------------- %s
+%s  Coded  : Queen Syifa                   %s%s
+%s  Github : https://github.com/QueenSyifa %s
+%s----------------------------------------
+ """%(H,P,M,B,R,M,B,R,P)
 	login()
 # okay decompiling 3.pyc
