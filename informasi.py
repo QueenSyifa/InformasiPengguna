@@ -144,6 +144,7 @@ def menu():
 
     os.system('clear')
     print logo
+    print '\x1b[1;91m[\x1b[1;96m\xe2\x97\x8f\x1b[1;91m]\x1b[1;97m Tool \x1b[1;91m: \x1b[1;92mInformasi Pengguna'
     print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     id = raw_input('\n\x1b[1;91m[+] \x1b[1;92mMasukan ID\x1b[1;97m/\x1b[1;92mNama\x1b[1;91m : \x1b[1;97m')
     jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
