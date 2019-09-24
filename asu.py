@@ -147,37 +147,7 @@ def menu():
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Informasi Pengguna'
     print
-    pilih()
-
-
-def pilih():
-    zedd = raw_input('\x1b[1;91m-\xe2\x96\xba\x1b[1;97m ')
-    if zedd == '':
-        print '\x1b[1;91m[!] Jangan kosong'
-        pilih()
-    else:
-        if zedd == '1':
-            informasi()
-        else:
-            if zedd == '2':
-                menu_hack()
-            else:
-                if zedd == '3':
-                    menu_bot()
-                else:
-                    if zedd == '4':
-                        lain()
-                    else:
-                        if zedd == '5':
-                            os.system('rm -rf login.txt')
-                            keluar()
-                        else:
-                            if zedd == '0':
-                                keluar()
-                            else:
-                                print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
-                                pilih()
-
+    informasi()
 
 def informasi():
     os.system('clear')
