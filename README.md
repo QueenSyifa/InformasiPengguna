@@ -2,4 +2,4 @@
 
 Contact me : https://www.facebook.com/queensyifaa
 
-WhatsApp   : +6282114018869
+WhatsApp   : https://api.whatsapp.com/+6282114018869
