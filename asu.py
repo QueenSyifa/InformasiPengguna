@@ -46,6 +46,13 @@ em = []
 emfromteman = []
 hp = []
 hpfromteman = []
+reaksi = []
+reaksigrup = []
+komen = []
+komengrup = []
+listgrup = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
 
 
 def login():
@@ -152,15 +159,24 @@ def pilih():
         if zedd == '1':
             informasi()
         else:
-            if zedd == '5':
-                os.system('rm -rf login.txt')
-                keluar()
+            if zedd == '2':
+                menu_hack()
             else:
-                if zedd == '0':
-                    keluar()
-                 else:
-                    print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
-                    pilih()
+                if zedd == '3':
+                    menu_bot()
+                else:
+                    if zedd == '4':
+                        lain()
+                    else:
+                        if zedd == '5':
+                            os.system('rm -rf login.txt')
+                            keluar()
+                        else:
+                            if zedd == '0':
+                                keluar()
+                            else:
+                                print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
+                                pilih()
 
 
 def informasi():
