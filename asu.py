@@ -141,16 +141,6 @@ def menu():
             keluar()
 
     os.system('clear')
-    print logo
-    print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
-    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
-    print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Informasi Pengguna'
-    print
-    informasi()
-
-def informasi():
-    os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
@@ -161,6 +151,12 @@ def informasi():
 
     os.system('clear')
     print logo
+    print logo
+    print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
+    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
+    print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
+    print '\x1b[1;37;40m1. Informasi Pengguna'
+    print
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     id = raw_input('\x1b[1;91m[+] \x1b[1;92mMasukan ID\x1b[1;97m/\x1b[1;92mNama\x1b[1;91m : \x1b[1;97m')
     jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
