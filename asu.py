@@ -21,6 +21,9 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
+
+logo = '----------------------------------------\n  Coded  : Queen                        \n  Github : https://github.com/QueenSyifa\n----------------------------------------'
+
 def tik():
     titik = [
      '.   ', '..  ', '... ']
@@ -140,12 +143,7 @@ def menu():
         login()
 
     os.system('clear')
-    print """%s
-    %s---------------------------------------- %s
-    %s  Coded  : Queen Syifa                   %s%s
-    %s  Github : https://github.com/QueenSyifa %s
-    %s----------------------------------------    
-    """%(H,P,M,B,R,M,B,R,P)
+    print logo
     print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
@@ -207,4 +205,5 @@ def menu():
         menu()
 
 if __name__ == '__main__':
-    login()
+	login()
+# okay decompiling 3.pyc
